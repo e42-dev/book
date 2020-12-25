@@ -17,12 +17,13 @@ p {
 }
 
 
-dl, p {
+dl,
+p {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 45%;
     margin-left: 2%;
-  }
+}
 
 pre {
     margin-top: 10px;
@@ -31,4 +32,4 @@ pre {
     margin-left: 2%;
     border-radius: 5px;
     border: 1px solid rgb(39, 23, 23);
-  }
+}

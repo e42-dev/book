@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" media="all" href="assets/css/book.css" />
+
 # Think Python
 
 Chapter - 01: [The way of the program](chapter-01-the-way-of-the-program.md)  
