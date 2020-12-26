@@ -1,14 +1,14 @@
 html {
     margin-left: auto;
-    margin-right: 400px;
+    margin-right: 20%;
 }
 
 
-.h1{
+h1{
     font-family: "Nunito Sans";
 }
 
-.h2{
+h2{
     font-family: "Nunito Sans";
 }
 
@@ -18,7 +18,7 @@ div,
 p {
     font-size: 24px;
     line-height: 1.8em;
-    font-family: "Droid Serif", Georgia, serif;
+    font-family: "Droid Serif";
 }
 
 
