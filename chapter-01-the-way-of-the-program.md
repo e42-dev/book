@@ -25,7 +25,7 @@ On one level, you will be learning to program, a useful skill by itself.
 On another level, you will use programming as a means to an end. As we
 go along, that end will become clearer.
 
-## What is a program?
+## 1.1 What is a program?
 
 A <span>**program**</span> is a sequence of instructions that specifies
 how to perform a computation. The computation might be something
@@ -62,7 +62,7 @@ process of breaking a large, complex task into smaller and smaller
 subtasks until the subtasks are simple enough to be performed with one
 of these basic instructions.
 
-# Running Python
+# 1.2 Running Python
 
 Install VSCode and Python 3.8.6 version.
 
@@ -92,7 +92,7 @@ and hit Enter, the interpreter displays the result:
 Now you’re ready to get started. From here on, I assume that you know
 how to start the Python interpreter and run code.
 
-## The first program {#hello}
+## 1.3 The first program {#hello}
 
 Traditionally, the first program you write in a new language is called
 “Hello, World!” because all it does is display the words “Hello,
@@ -113,7 +113,7 @@ The parentheses indicate that <span>print</span> is a function. We’ll
 get to functions in Chapter [funcchap].
 
 
-## Arithmetic operators
+## 1.4 Arithmetic operators
 
 After “Hello, World”, the next step is arithmetic. Python provides
 <span>**operators**</span>, which are special symbols that represent
@@ -153,7 +153,7 @@ bitwise operators, the result will surprise you:
 I won’t cover bitwise operators in this book, but you can read about
 them at <http://wiki.python.org/moin/BitwiseOperators>.
 
-## Values and types
+## 1.5 Values and types
 
 A <span>**value**</span> is one of the basic things a program works
 with, like a letter or a number. Some values we have seen so far are
@@ -202,7 +202,7 @@ That’s not what we expected at all! Python interprets
 <span>1,000,000</span> as a comma-separated sequence of integers. We’ll
 learn more about this kind of sequence later.
 
-## Formal and natural languages
+## 1.6 Formal and natural languages
 
 <span>**Natural languages**</span> are the languages people speak, such
 as English, Spanish, and French. They were not designed by people
@@ -221,16 +221,16 @@ importantly:
 
 Formal languages tend to have strict <span>**syntax**</span> rules that
 govern the structure of statements. For example, in mathematics the
-statement $3 + 3 = 6$ has correct syntax, but $3 + = 3 \$ 6$ does not.
-In chemistry $H_2O$ is a syntactically correct formula, but $_2Zz$ is
+statement `3 + 3 = 6` has correct syntax, but `3 + = 3$6` does not.
+In chemistry H<sub>2</sub>O is a syntactically correct formula, but <sub>2</sub>Zz is
 not.
 
 Syntax rules come in two flavors, pertaining to <span>**tokens**</span>
 and structure. Tokens are the basic elements of the language, such as
 words, numbers, and chemical elements. One of the problems with
-$3 += 3 \$ 6$ is that $ \$ $ is not a legal token in mathematics (at
-least as far as I know). Similarly, $_2Zz$ is not legal because there is
-no element with the abbreviation $Zz$.
+`3 += 3$6` is that `$` is not a legal token in mathematics (at
+least as far as I know). Similarly, <sub>2</sub>Zz is not legal because there is
+no element with the abbreviation `Zz`.
 
 The second type of syntax rule pertains to the way tokens are combined.
 The equation $3 +/ 3$ is illegal because even though $+$ and $/$ are
@@ -291,7 +291,7 @@ the structure. Finally, the details matter. Small errors in spelling and
 punctuation, which you can get away with in natural languages, can make
 a big difference in a formal language.
 
-## Debugging
+## 1.7 Debugging
 
 Programmers make mistakes. For whimsical reasons, programming errors are
 called <span>**bugs**</span> and the process of tracking them down is
@@ -321,7 +321,7 @@ useful for many activities beyond programming. At the end of each
 chapter there is a section, like this one, with my suggestions for
 debugging. I hope they help!
 
-## Glossary
+## 1.8 Glossary
 
 problem solving:
 :   The process of formulating a problem, finding a solution, and
@@ -399,9 +399,9 @@ bug:
 debugging:
 :   The process of finding and correcting bugs.
 
-## Exercises
+## 1.9 Exercises
 
-It is a good idea to read this book in front of a computer so you can
+**Exercise 1.1.** It is a good idea to read this book in front of a computer so you can
 try out the examples as you go.
 
 Whenever you are experimenting with a new feature, you should try to
@@ -429,7 +429,7 @@ later and accidentally.
 
 5.  What happens if you have two values with no operator between them?
 
-Start the Python interpreter and use it as a calculator.
+**Exercise 1.2.** Start the Python interpreter and use it as a calculator.
 
 1.  How many seconds are there in 42 minutes 42 seconds?
 
