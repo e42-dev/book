@@ -113,8 +113,7 @@ The parentheses indicate that <span>print</span> is a function. We’ll
 get to functions in Chapter [funcchap].
 
 
-Arithmetic operators
---------------------
+## Arithmetic operators
 
 After “Hello, World”, the next step is arithmetic. Python provides
 <span>**operators**</span>, which are special symbols that represent
