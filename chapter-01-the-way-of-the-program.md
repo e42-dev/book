@@ -2,8 +2,7 @@
 
 Chapter-01
 
-The way of the program
-======================
+# The way of the program
 
 The goal of this book is to teach you to think like a computer
 scientist. This way of thinking combines some of the best features of
@@ -26,8 +25,7 @@ On one level, you will be learning to program, a useful skill by itself.
 On another level, you will use programming as a means to an end. As we
 go along, that end will become clearer.
 
-What is a program?
-------------------
+## What is a program?
 
 A <span>**program**</span> is a sequence of instructions that specifies
 how to perform a computation. The computation might be something
@@ -64,46 +62,25 @@ process of breaking a large, complex task into smaller and smaller
 subtasks until the subtasks are simple enough to be performed with one
 of these basic instructions.
 
-Running Python
---------------
+# Running Python
 
-One of the challenges of getting started with Python is that you might
-have to install Python and related software on your computer. If you are
-familiar with your operating system, and especially if you are
-comfortable with the command-line interface, you will have no trouble
-installing Python. But for beginners, it can be painful to learn about
-system administration and programming at the same time.
-
-To avoid that problem, I recommend that you start out running Python in
-a browser. Later, when you are comfortable with Python, I’ll make
-suggestions for installing Python on your computer.
-
-There are a number of web pages you can use to run Python. If you
-already have a favorite, go ahead and use it. Otherwise I recommend
-PythonAnywhere. I provide detailed instructions for getting started at
-<http://tinyurl.com/thinkpython2e>.
-
-There are two versions of Python, called Python 2 and Python 3. They are
-very similar, so if you learn one, it is easy to switch to the other. In
-fact, there are only a few differences you will encounter as a beginner.
-This book is written for Python 3, but I include some notes about Python
-2.
+Install VSCode and Python 3.8.6 version.
 
 The Python <span>**interpreter**</span> is a program that reads and
 executes Python code. Depending on your environment, you might start the
 interpreter by clicking on an icon, or by typing <span>python</span> on
 a command line. When it starts, you should see output like this:
 
-    Python 3.4.0 (default, Jun 19 2015, 14:20:21) 
-    [GCC 4.8.2] on linux
+    Python 3.0 (default, Sep 23 2020, 13:31:39) 
+    [Clang 6.0 (clang-600.0.57)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
     >>> 
 
 The first three lines contain information about the interpreter and the
 operating system it’s running on, so it might be different for you. But
-you should check that the version number, which is <span>3.4.0</span> in
+you should check that the version number, which is <span>3.8.6</span> in
 this example, begins with 3, which indicates that you are running Python
-3. If it begins with 2, you are running (you guessed it) Python 2.
+3.
 
 The last line is a <span>**prompt**</span> that indicates that the
 interpreter is ready for you to enter code. If you type a line of code
@@ -115,8 +92,7 @@ and hit Enter, the interpreter displays the result:
 Now you’re ready to get started. From here on, I assume that you know
 how to start the Python interpreter and run code.
 
-The first program {#hello}
------------------
+## The first program {#hello}
 
 Traditionally, the first program you write in a new language is called
 “Hello, World!” because all it does is display the words “Hello,
@@ -136,13 +112,6 @@ text to be displayed; they don’t appear in the result.
 The parentheses indicate that <span>print</span> is a function. We’ll
 get to functions in Chapter [funcchap].
 
-In Python 2, the print statement is slightly different; it is not a
-function, so it doesn’t use parentheses.
-
-    >>> print 'Hello, World!'
-
-This distinction will make more sense soon, but that’s enough to get
-started.
 
 Arithmetic operators
 --------------------
@@ -185,8 +154,7 @@ bitwise operators, the result will surprise you:
 I won’t cover bitwise operators in this book, but you can read about
 them at <http://wiki.python.org/moin/BitwiseOperators>.
 
-Values and types
-----------------
+## Values and types
 
 A <span>**value**</span> is one of the basic things a program works
 with, like a letter or a number. Some values we have seen so far are
@@ -235,8 +203,7 @@ That’s not what we expected at all! Python interprets
 <span>1,000,000</span> as a comma-separated sequence of integers. We’ll
 learn more about this kind of sequence later.
 
-Formal and natural languages
-----------------------------
+## Formal and natural languages
 
 <span>**Natural languages**</span> are the languages people speak, such
 as English, Spanish, and French. They were not designed by people
@@ -325,8 +292,7 @@ the structure. Finally, the details matter. Small errors in spelling and
 punctuation, which you can get away with in natural languages, can make
 a big difference in a formal language.
 
-Debugging
----------
+## Debugging
 
 Programmers make mistakes. For whimsical reasons, programming errors are
 called <span>**bugs**</span> and the process of tracking them down is
@@ -339,9 +305,7 @@ angry, despondent, or embarrassed.
 There is evidence that people naturally respond to computers as if they
 were people. When they work well, we think of them as teammates, and
 when they are obstinate or rude, we respond to them the same way we
-respond to rude, obstinate people (Reeves and Nass, <span>*The Media
-Equation: How People Treat Computers, Television, and New Media Like
-Real People and Places*</span>).
+respond to rude, obstinate people.
 
 Preparing for these reactions might help you deal with them. One
 approach is to think of the computer as an employee with certain
@@ -358,8 +322,7 @@ useful for many activities beyond programming. At the end of each
 chapter there is a section, like this one, with my suggestions for
 debugging. I hope they help!
 
-Glossary
---------
+## Glossary
 
 problem solving:
 :   The process of formulating a problem, finding a solution, and
@@ -437,8 +400,7 @@ bug:
 debugging:
 :   The process of finding and correcting bugs.
 
-Exercises
----------
+## Exercises
 
 It is a good idea to read this book in front of a computer so you can
 try out the examples as you go.
