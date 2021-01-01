@@ -79,12 +79,12 @@ p {
 }
 
 pre {
-    margin-bottom: 20px;
+    margin: 10px 0;
     border-radius: 5px;
-    border: 1px solid rgb(39, 23, 23);
+    border: 1px solid #777;
 }
 
-pre code {
+code {
     font-size: 20px;
     line-height: 30px;
     font-family: 'Source Code Pro', monospace;
