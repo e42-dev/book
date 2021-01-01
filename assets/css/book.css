@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -74,11 +75,17 @@ p {
     line-height: 30px;
     font-family: 'Open Sans', sans-serif;
     /* font-family: "Droid Serif"; */
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 pre {
     margin-bottom: 20px;
     border-radius: 5px;
     border: 1px solid rgb(39, 23, 23);
+}
+
+pre code {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Source Code Pro', monospace;
 }
