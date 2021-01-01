@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -56,11 +57,7 @@ body {
     width: 100%;
 }
 
-h1{
-    font-family: 'Nunito Sans', sans-serif;;
-}
-
-h2{
+h1, h2 {
     font-family: 'Nunito Sans', sans-serif;;
 }
 
@@ -70,7 +67,8 @@ div,
 p {
     font-size: 28px;
     line-height: 1.6em;
-    font-family: "Droid Serif";
+    // font-family: "Droid Serif";
+    font-family: 'Open Sans', sans-serif;
 }
 
 
