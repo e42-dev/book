@@ -70,6 +70,10 @@ h1, h2 {
 
 dl,
 p {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: "Droid Serif"; */
     margin-bottom: 20px;
 }
 
